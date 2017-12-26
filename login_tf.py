@@ -29,8 +29,8 @@ opener = request.build_opener(request.HTTPCookieProcessor(cookie))
 # 给openner添加headers, addheaders方法接受元组而非字典
 opener.addheaders = [(key, value) for key, value in headers.items()]
 
-account = '3915741'
-secret = "Jiatianyu0116"
+account = ''
+secret = ""
 month = "201710"
 province = "Beijing"
 
