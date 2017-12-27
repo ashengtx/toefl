@@ -49,8 +49,8 @@ def login():
     get_captcha()
     captcha_code = input("please enter captcha code: ")
     print(captcha_code)
-    username = '3915741'
-    pwd = "Jiatianyu0116"
+    username = ''
+    pwd = ""
     password = pwd_encode(pwd, username, captcha_code)
     params = {'username':username,
               '__act':'__id.24.TOEFLAPP.appadp.actLogin',
